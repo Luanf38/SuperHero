@@ -1,10 +1,9 @@
-package com.luanlima.superheroapp.data
+package com.luanlima.superheroapp.model
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.luanlima.superheroapp.R
 
-data class SuperHero(
+data class SuperHeroModel(
     @StringRes val nameRes: Int,
     @StringRes val descriptionRes: Int,
     @DrawableRes val imageRes: Int
